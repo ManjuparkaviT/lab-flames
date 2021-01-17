@@ -6,4 +6,4 @@ package service;
 // Your task is to calculate the flames value and return the corresponding character as output 
 // You must return only the following values ['f','l','a','m','e','s']
 // change the return value at the end of the method corresponding to your return value
-
+gh
