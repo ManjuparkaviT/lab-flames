@@ -8,7 +8,7 @@ import service.FlamesCheckService;
 public class TestFlamesCheckService {
 	FlamesCheckService fcs = new FlamesCheckService();
 	@Test
-// 	public void testFindFlamesMethod() {
+//	public void testFindFlamesMethod() {
 // 		String name1 = "Alex";
 // 		String name2 = "Joylin";
 // 		char temp = 'a';
