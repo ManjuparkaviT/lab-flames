@@ -13,6 +13,8 @@ public class FlamesCheckService{
 		name1=name1.toLowerCase();
 		name2=name2.toLowerCase();
 		
+		System.out.println("Your Name is "+name1);
+		System.out.println("Your Partner Name is "+name2);
 		StringBuilder str1=new StringBuilder(name1);
 		StringBuilder str2=new StringBuilder(name2);
 		
@@ -64,6 +66,28 @@ public class FlamesCheckService{
             str3 = new StringBuilder(temp);
             flame = str3.charAt(0);
             
+        }
+        switch(flame)
+        {
+            case 'f':
+                System.out.println("You two are Friends");
+                break;
+            case 'l':
+                System.out.println("You two are Lovers");
+                break;
+            case 'a':
+                System.out.println("You two share Affection");
+                break;
+            case 'm':
+                System.out.println("You both will end up in Marriage");
+                break;
+            case 'e':
+                System.out.println("You two are Enemies");
+                break;
+            case 's':
+                System.out.println("You two are Siblings");
+                break;
+                
         }
         return flame;
  
